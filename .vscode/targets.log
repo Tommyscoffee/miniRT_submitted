@@ -1,0 +1,2748 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Thu Feb  2 21:22:31 2023
+
+# Variables
+
+# environment
+VSCODE_GIT_ASKPASS_MAIN = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `Makefile', line 41)
+OBJ := obj/camera/camera.o obj/color/color.o obj/color/color_utils.o obj/compute/compute.o obj/compute/compute2.o obj/display/display.o obj/gnl/get_next_line_utils.o obj/gnl/get_next_line.o obj/event.o obj/img.o obj/main.o obj/shapes/shape.o obj/shapes/shape_normal_vec.o obj/shapes/with_shape.o obj/utils/double_max.o obj/utils/double_min.o obj/utils/free_all.o obj/utils/ft_exit.o obj/utils/ft_walloc.o obj/utils/put_usage.o obj/utils/is_num.o obj/utils/is_float.o obj/vector_3d/vec3d_camera.o obj/vector_3d/vec3d_camera_to_screen.o obj/vector_3d/vec3d_sp_center.o obj/vector_3d/vec3d_utils.o obj/vector_3d/vec3d_utils1.o obj/world/world.o obj/world/world_add.o obj/world/world_parse_1.o obj/world/world_parse_2.o obj/world/world_parse_3.o obj/world/world_parse_4.o obj/world/world_parse_utills.o
+# makefile (from `Makefile', line 5)
+ 
+SRC := src/camera/camera.c src/color/color.c src/color/color_utils.c src/compute/compute.c src/compute/compute2.c src/display/display.c src/gnl/get_next_line_utils.c src/gnl/get_next_line.c src/event.c src/img.c src/main.c src/shapes/shape.c src/shapes/shape_normal_vec.c src/shapes/with_shape.c src/utils/double_max.c src/utils/double_min.c src/utils/free_all.c src/utils/ft_exit.c src/utils/ft_walloc.c src/utils/put_usage.c src/utils/is_num.c src/utils/is_float.c src/vector_3d/vec3d_camera.c src/vector_3d/vec3d_camera_to_screen.c src/vector_3d/vec3d_sp_center.c src/vector_3d/vec3d_utils.c src/vector_3d/vec3d_utils1.c src/world/world.c src/world/world_add.c src/world/world_parse_1.c src/world/world_parse_2.c src/world/world_parse_3.c src/world/world_parse_4.c src/world/world_parse_utills.c 
+# environment
+NODENV_SHELL = zsh
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/akihito/42tokyo/42cursus/level4/miniRT_submit
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"9eb3296c3014f049d0369c45b42faddb.ja","_translationsConfigFile":"/Users/akihito/Library/Application Support/Code/clp/9eb3296c3014f049d0369c45b42faddb.ja/tcf.json","_cacheRoot":"/Users/akihito/Library/Application Support/Code/clp/9eb3296c3014f049d0369c45b42faddb.ja","_resolvedLanguagePackCoreLocation":"/Users/akihito/Library/Application Support/Code/clp/9eb3296c3014f049d0369c45b42faddb.ja/97dec172d3256f8ca4bfb2143f3f76b503ca0534","_corruptedFile":"/Users/akihito/Library/Application Support/Code/clp/9eb3296c3014f049d0369c45b42faddb.ja/corrupted.info","_languagePackSupport":true}
+# makefile (from `Makefile', line 59)
+MLX := mlx_Darwin
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 2)
+CFLAGS := -Wall -Wextra -Werror -fsanitize=address
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `obj/world/world_parse_utills.d', line 1)
+MAKEFILE_LIST :=  Makefile obj/camera/camera.d obj/color/color.d obj/color/color_utils.d obj/compute/compute.d obj/compute/compute2.d obj/display/display.d obj/gnl/get_next_line_utils.d obj/gnl/get_next_line.d obj/event.d obj/img.d obj/main.d obj/shapes/shape.d obj/shapes/shape_normal_vec.d obj/shapes/with_shape.d obj/utils/double_max.d obj/utils/double_min.d obj/utils/free_all.d obj/utils/ft_exit.d obj/utils/ft_walloc.d obj/utils/put_usage.d obj/utils/is_num.d obj/utils/is_float.d obj/vector_3d/vec3d_camera.d obj/vector_3d/vec3d_camera_to_screen.d obj/vector_3d/vec3d_sp_center.d obj/vector_3d/vec3d_utils.d obj/vector_3d/vec3d_utils1.d obj/world/world.d obj/world/world_add.d obj/world/world_parse_1.d obj/world/world_parse_2.d obj/world/world_parse_3.d obj/world/world_parse_4.d obj/world/world_parse_utills.d
+# environment
+VSCODE_INJECTION = 1
+# makefile (from `Makefile', line 45)
+OBJ_DIR := obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /Users/akihito/42tokyo/42cursus/level4/miniRT_submit
+# environment
+PATH = /Users/akihito/.nodenv/shims:/Users/akihito/.nodenv/bin:/usr/local/opt/mysql@5.7/bin:/Users/akihito/.nodebrew/current/bin:/Users/akihito/.nodenv/shims:/Users/akihito/.pyenv/shims:/Users/akihito/.pyenv/bin:/Users/akihito/Library/Python/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/akihito/.nodenv/shims:/Users/akihito/.nodenv/bin:/usr/local/opt/mysql@5.7/bin:/Users/akihito/.nodebrew/current/bin:/Users/akihito/.pyenv/bin:/Users/akihito/Library/Python/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin
+# makefile (from `Makefile', line 42)
+DEP := obj/camera/camera.d obj/color/color.d obj/color/color_utils.d obj/compute/compute.d obj/compute/compute2.d obj/display/display.d obj/gnl/get_next_line_utils.d obj/gnl/get_next_line.d obj/event.d obj/img.d obj/main.d obj/shapes/shape.d obj/shapes/shape_normal_vec.d obj/shapes/with_shape.d obj/utils/double_max.d obj/utils/double_min.d obj/utils/free_all.d obj/utils/ft_exit.d obj/utils/ft_walloc.d obj/utils/put_usage.d obj/utils/is_num.d obj/utils/is_float.d obj/vector_3d/vec3d_camera.d obj/vector_3d/vec3d_camera_to_screen.d obj/vector_3d/vec3d_sp_center.d obj/vector_3d/vec3d_utils.d obj/vector_3d/vec3d_utils1.d obj/world/world.d obj/world/world_add.d obj/world/world_parse_1.d obj/world/world_parse_2.d obj/world/world_parse_3.d obj/world/world_parse_4.d obj/world/world_parse_utills.d
+# environment
+ZDOTDIR = /Users/akihito
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+PYENV_ROOT = /Users/akihito/.pyenv
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 48)
+LIBFT_DIR := libft
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Gz2Fu4oi8k/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.rfJNUd2QPp/org.xquartz:0
+# environment
+PWD = /Users/akihito/42tokyo/42cursus/level4/miniRT_submit
+# makefile (from `Makefile', line 62)
+DEBUGFLAGS := -fsanitize=address
+ 
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/akihito
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/akihito/Library/Application Support/Code/CachedData/97dec172d3256f8ca4bfb2143f3f76b503ca0534
+# environment
+LOGNAME = akihito
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# makefile (from `Makefile', line 47)
+LIBFT := ft
+# makefile (from `Makefile', line 1)
+CC := cc
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = akihito
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 3)
+NAME := miniRT
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 60)
+LIBS_DIR := /usr/X11R6/lib
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# environment
+VSCODE_GIT_ASKPASS_EXTRA_ARGS = --ms-enable-electron-run-as-node
+# environment
+TERM_PROGRAM = vscode
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/_y/r11bfc851697zjcp5yfmbl4w0000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 51)
+OS := Darwin
+# environment
+VSCODE_IPC_HOOK = /Users/akihito/Library/Application Support/Code/1.74.3-main.sock
+# environment
+VSCODE_GIT_ASKPASS_NODE = /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 1.74.3
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.53472796.53472818.90CE362E-0821-4BAD-94C9-24F62EFC5FCB
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x1:0xE
+# environment
+COMMAND_MODE = unix2003
+# environment
+GIT_ASKPASS = /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+USER_ZDOTDIR = /Users/akihito
+# makefile (from `Makefile', line 50)
+MLX_DIR := minilibx-linux
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 61)
+LIBS := -lX11 -lXext -framework OpenGL -framework AppKit
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 65)
+DEPSFLAGS := -MMD -MP
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+VSCODE_GIT_IPC_HANDLE = /var/folders/_y/r11bfc851697zjcp5yfmbl4w0000gn/T/vscode-git-ae69e3ed7b.sock
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 21340
+# variable set hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=7/207=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# obj/shapes (device 16777220, inode 51567269): No files, no impossibilities so far.
+# src/color (device 16777220, inode 51550429): 5 files, no impossibilities.
+# src/camera (device 16777220, inode 51550426): No files, no impossibilities so far.
+# obj/world (device 16777220, inode 51567275): 17 files, no impossibilities.
+# obj (device 16777220, inode 51567257): No files, no impossibilities so far.
+# . (device 16777220, inode 51550023): 11 files, no impossibilities.
+# src/gnl (device 16777220, inode 51550418): 9 files, no impossibilities.
+# src/display (device 16777220, inode 51550473): 4 files, no impossibilities.
+# src/utils (device 16777220, inode 51550447): 11 files, no impossibilities.
+# obj/color (device 16777220, inode 51567261): No files, no impossibilities so far.
+# obj/camera (device 16777220, inode 51567259): No files, no impossibilities so far.
+# src/compute (device 16777220, inode 51550466): 5 files, no impossibilities.
+# src/vector_3d (device 16777220, inode 51550459): 8 files, no impossibilities.
+# src (device 16777220, inode 51550416): 17 files, no impossibilities.
+# src/shapes (device 16777220, inode 51550442): 6 files, no impossibilities.
+# obj/gnl (device 16777220, inode 51567267): No files, no impossibilities so far.
+# obj/display (device 16777220, inode 51567265): No files, no impossibilities so far.
+# src/world (device 16777220, inode 51550433): 10 files, no impossibilities.
+# obj/utils (device 16777220, inode 51567271): No files, no impossibilities so far.
+# obj/compute (device 16777220, inode 51567263): No files, no impossibilities so far.
+# obj/vector_3d (device 16777220, inode 51567273): 13 files, no impossibilities.
+
+# 116 files, no impossibilities in 21 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+src/color/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/shapes/shape_normal_vec.o: src/shapes/shape_normal_vec.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/shapes/shape_normal_vec.c src/shapes/../main.h minilibx-linux/mlx.h src/shapes/../../libft/libft.h src/shapes/../gnl/get_next_line.h src/shapes/../vector_3d/vector_3d.h src/shapes/../color/color.h src/shapes/../world/world.h src/shapes/../world/../../libft/libft.h src/shapes/../world/../light/light.h src/shapes/../world/../light/../color/color.h src/shapes/../world/../light/../vector_3d/vector_3d.h src/shapes/../world/../shapes/shape.h src/shapes/../world/../camera/camera.h src/shapes/../compute/compute.h src/shapes/../display/display.h src/shapes/../display/../img.h src/shapes/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `shapes/shape_normal_vec'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+obj/display/display.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 03:05:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/gnl/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/color/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+ 
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/vector_3d/vec3d_utils1.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/color/color_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_add.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 15:52:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/vector_3d/vec3d_utils.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world_parse_utills.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/compute/compute2.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/event.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/ft_exit.o: src/utils/ft_exit.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/ft_exit.c src/utils/../main.h minilibx-linux/mlx.h src/utils/../../libft/libft.h src/utils/../gnl/get_next_line.h src/utils/../vector_3d/vector_3d.h src/utils/../color/color.h src/utils/../world/world.h src/utils/../world/../../libft/libft.h src/utils/../world/../light/light.h src/utils/../world/../light/../color/color.h src/utils/../world/../light/../vector_3d/vector_3d.h src/utils/../world/../shapes/shape.h src/utils/../world/../shapes/../color/color.h src/utils/../world/../shapes/../vector_3d/vector_3d.h src/utils/../world/../camera/camera.h src/utils/../compute/compute.h src/utils/../display/display.h src/utils/../display/../img.h src/utils/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/ft_exit'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/utils/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/utils/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+obj/world/world_parse_2.o: src/world/world_parse_2.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_parse_2.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_parse_2'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/compute/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/gnl/get_next_line.o: src/gnl/get_next_line.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/gnl/get_next_line.c src/gnl/get_next_line.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `gnl/get_next_line'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/camera/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/compute/compute.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: miniRT
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all clean fclean re
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/vector_3d/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/camera/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+# Not a target:
+src/vector_3d/vec3d_sp_center.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/color/color.o: src/color/color.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/color/color.c src/color/../main.h minilibx-linux/mlx.h src/color/../../libft/libft.h src/color/../gnl/get_next_line.h src/color/../vector_3d/vector_3d.h src/color/../color/color.h src/color/../world/world.h src/color/../world/../../libft/libft.h src/color/../world/../light/light.h src/color/../world/../light/../color/color.h src/color/../world/../light/../vector_3d/vector_3d.h src/color/../world/../shapes/shape.h src/color/../world/../shapes/../color/color.h src/color/../world/../shapes/../vector_3d/vector_3d.h src/color/../world/../camera/camera.h src/color/../compute/compute.h src/color/../display/display.h src/color/../display/../img.h src/color/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `color/color'
+ 
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/vector_3d/vec3d_camera_to_screen.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/vec3d_camera_to_screen.o: src/vector_3d/vec3d_camera_to_screen.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/vector_3d/vec3d_camera_to_screen.c src/vector_3d/../main.h minilibx-linux/mlx.h src/vector_3d/../../libft/libft.h src/vector_3d/../gnl/get_next_line.h src/vector_3d/../vector_3d/vector_3d.h src/vector_3d/../color/color.h src/vector_3d/../world/world.h src/vector_3d/../world/../../libft/libft.h src/vector_3d/../world/../light/light.h src/vector_3d/../world/../light/../color/color.h src/vector_3d/../world/../light/../vector_3d/vector_3d.h src/vector_3d/../world/../shapes/shape.h src/vector_3d/../world/../shapes/../color/color.h src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h src/vector_3d/../world/../camera/camera.h src/vector_3d/../compute/compute.h src/vector_3d/../display/display.h src/vector_3d/../display/../img.h src/vector_3d/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vector_3d/vec3d_camera_to_screen'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world_parse_3.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/shapes/shape.o: src/shapes/shape.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/shapes/shape.c src/shapes/../main.h minilibx-linux/mlx.h src/shapes/../../libft/libft.h src/shapes/../gnl/get_next_line.h src/shapes/../vector_3d/vector_3d.h src/shapes/../color/color.h src/shapes/../world/world.h src/shapes/../world/../../libft/libft.h src/shapes/../world/../light/light.h src/shapes/../world/../light/../color/color.h src/shapes/../world/../light/../vector_3d/vector_3d.h src/shapes/../world/../shapes/shape.h src/shapes/../world/../camera/camera.h src/shapes/../compute/compute.h src/shapes/../display/display.h src/shapes/../display/../img.h src/shapes/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `shapes/shape'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/display/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/double_max.o: src/utils/double_max.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/double_max.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/double_max'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/display/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/ft_walloc.o: src/utils/ft_walloc.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/ft_walloc.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/ft_walloc'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/shapes/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world_parse_4.o: src/world/world_parse_4.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_parse_4.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_parse_4'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+ 
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_parse_1.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 18:30:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/put_usage.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/double_min.o: src/utils/double_min.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/double_min.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/double_min'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+obj/main.o: src/main.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/main.c src/main.h minilibx-linux/mlx.h src/../libft/libft.h src/gnl/get_next_line.h src/vector_3d/vector_3d.h src/color/color.h src/world/world.h src/world/../../libft/libft.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/compute/compute.h src/display/display.h src/display/../img.h src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `main'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+obj/shapes/with_shape.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+miniRT: minilibx-linux/libmlx_Darwin.a libft/libft.a obj/camera/camera.o obj/color/color.o obj/color/color_utils.o obj/compute/compute.o obj/compute/compute2.o obj/display/display.o obj/gnl/get_next_line_utils.o obj/gnl/get_next_line.o obj/event.o obj/img.o obj/main.o obj/shapes/shape.o obj/shapes/shape_normal_vec.o obj/shapes/with_shape.o obj/utils/double_max.o obj/utils/double_min.o obj/utils/free_all.o obj/utils/ft_exit.o obj/utils/ft_walloc.o obj/utils/put_usage.o obj/utils/is_num.o obj/utils/is_float.o obj/vector_3d/vec3d_camera.o obj/vector_3d/vec3d_camera_to_screen.o obj/vector_3d/vec3d_sp_center.o obj/vector_3d/vec3d_utils.o obj/vector_3d/vec3d_utils1.o obj/world/world.o obj/world/world_add.o obj/world/world_parse_1.o obj/world/world_parse_2.o obj/world/world_parse_3.o obj/world/world_parse_4.o obj/world/world_parse_utills.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 74):
+	$(CC) $(CFLAGS) $(DEBUGFLAGS) $(BONUSFLAGS) -o $(NAME) $(OBJ) \
+	-L$(LIBFT_DIR) -l$(LIBFT) \
+	-L$(MLX_DIR) -l$(MLX) \
+	-L$(LIBS_DIR) $(LIBS)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:37
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/color/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/display/display.o: src/display/display.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/display/display.c src/display/../main.h minilibx-linux/mlx.h src/display/../../libft/libft.h src/display/../gnl/get_next_line.h src/display/../vector_3d/vector_3d.h src/display/../color/color.h src/display/../world/world.h src/display/../world/../../libft/libft.h src/display/../world/../light/light.h src/display/../world/../light/../color/color.h src/display/../world/../light/../vector_3d/vector_3d.h src/display/../world/../shapes/shape.h src/display/../world/../shapes/../color/color.h src/display/../world/../shapes/../vector_3d/vector_3d.h src/display/../world/../camera/camera.h src/display/../compute/compute.h src/display/../display/display.h src/display/../img.h src/display/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `display/display'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+ 
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/compute/compute.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 00:02:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/vec3d_utils1.o: src/vector_3d/vec3d_utils1.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/vector_3d/vec3d_utils1.c src/vector_3d/../main.h minilibx-linux/mlx.h src/vector_3d/../../libft/libft.h src/vector_3d/../gnl/get_next_line.h src/vector_3d/../vector_3d/vector_3d.h src/vector_3d/../color/color.h src/vector_3d/../world/world.h src/vector_3d/../world/../../libft/libft.h src/vector_3d/../world/../light/light.h src/vector_3d/../world/../light/../color/color.h src/vector_3d/../world/../light/../vector_3d/vector_3d.h src/vector_3d/../world/../shapes/shape.h src/vector_3d/../world/../shapes/../color/color.h src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h src/vector_3d/../world/../camera/camera.h src/vector_3d/../compute/compute.h src/vector_3d/../display/display.h src/vector_3d/../display/../img.h src/vector_3d/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vector_3d/vec3d_utils1'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/utils/ft_exit.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 03:04:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_parse_2.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/gnl/get_next_line.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:13
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/vec3d_sp_center.o: src/vector_3d/vec3d_sp_center.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/vector_3d/vec3d_sp_center.c src/vector_3d/../main.h minilibx-linux/mlx.h src/vector_3d/../../libft/libft.h src/vector_3d/../gnl/get_next_line.h src/vector_3d/../vector_3d/vector_3d.h src/vector_3d/../color/color.h src/vector_3d/../world/world.h src/vector_3d/../world/../../libft/libft.h src/vector_3d/../world/../light/light.h src/vector_3d/../world/../light/../color/color.h src/vector_3d/../world/../light/../vector_3d/vector_3d.h src/vector_3d/../world/../shapes/shape.h src/vector_3d/../world/../shapes/../color/color.h src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h src/vector_3d/../world/../camera/camera.h src/vector_3d/../compute/compute.h src/vector_3d/../display/display.h src/vector_3d/../display/../img.h src/vector_3d/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vector_3d/vec3d_sp_center'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+ 
+
+src/display/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/vector_3d/vec3d_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:03:21
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/double_max.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/img.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/is_float.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/vec3d_utils.o: src/vector_3d/vec3d_utils.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/vector_3d/vec3d_utils.c src/vector_3d/../main.h minilibx-linux/mlx.h src/vector_3d/../../libft/libft.h src/vector_3d/../gnl/get_next_line.h src/vector_3d/../vector_3d/vector_3d.h src/vector_3d/../color/color.h src/vector_3d/../world/world.h src/vector_3d/../world/../../libft/libft.h src/vector_3d/../world/../light/light.h src/vector_3d/../world/../light/../color/color.h src/vector_3d/../world/../light/../vector_3d/vector_3d.h src/vector_3d/../world/../shapes/shape.h src/vector_3d/../world/../shapes/../color/color.h src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h src/vector_3d/../world/../camera/camera.h src/vector_3d/../compute/compute.h src/vector_3d/../display/display.h src/vector_3d/../display/../img.h src/vector_3d/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vector_3d/vec3d_utils'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/camera/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/compute/compute.o: src/compute/compute.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/compute/compute.c src/compute/../main.h minilibx-linux/mlx.h src/compute/../../libft/libft.h src/compute/../gnl/get_next_line.h src/compute/../vector_3d/vector_3d.h src/compute/../color/color.h src/compute/../world/world.h src/compute/../world/../../libft/libft.h src/compute/../world/../light/light.h src/compute/../world/../light/../color/color.h src/compute/../world/../light/../vector_3d/vector_3d.h src/compute/../world/../shapes/shape.h src/compute/../world/../shapes/../color/color.h src/compute/../world/../shapes/../vector_3d/vector_3d.h src/compute/../world/../camera/camera.h src/compute/../compute/compute.h src/compute/../display/display.h src/compute/../display/../img.h src/compute/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `compute/compute'
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/color/color.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:36
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/event.o: src/event.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/event.c src/main.h minilibx-linux/mlx.h src/../libft/libft.h src/gnl/get_next_line.h src/vector_3d/vector_3d.h src/color/color.h src/world/world.h src/world/../../libft/libft.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/compute/compute.h src/display/display.h src/display/../img.h src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `event'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/shapes/shape.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/camera/camera.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/vector_3d/vec3d_camera.o: src/vector_3d/vec3d_camera.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/vector_3d/vec3d_camera.c src/vector_3d/../main.h minilibx-linux/mlx.h src/vector_3d/../../libft/libft.h src/vector_3d/../gnl/get_next_line.h src/vector_3d/../vector_3d/vector_3d.h src/vector_3d/../color/color.h src/vector_3d/../world/world.h src/vector_3d/../world/../../libft/libft.h src/vector_3d/../world/../light/light.h src/vector_3d/../world/../light/../color/color.h src/vector_3d/../world/../light/../vector_3d/vector_3d.h src/vector_3d/../world/../shapes/shape.h src/vector_3d/../world/../shapes/../color/color.h src/vector_3d/../world/../shapes/../vector_3d/vector_3d.h src/vector_3d/../world/../camera/camera.h src/vector_3d/../compute/compute.h src/vector_3d/../display/display.h src/vector_3d/../display/../img.h src/vector_3d/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vector_3d/vec3d_camera'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/vector_3d/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/double_max.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/display/display.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/gnl/get_next_line_utils.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+minilibx-linux/libmlx_Darwin.a:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-06 21:21:16
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 80):
+	make -C $(MLX_DIR)
+	
+
+obj/utils/is_num.o: src/utils/is_num.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/is_num.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/is_num'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+libft/libft.a:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+ 
+#  commands to execute (from `Makefile', line 83):
+	make bonus -C $(LIBFT_DIR)
+	
+
+src/display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_parse_4.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:00:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world_parse_3.o: src/world/world_parse_3.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_parse_3.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_parse_3'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+obj/utils/put_usage.o: src/utils/put_usage.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/put_usage.c src/utils/../main.h minilibx-linux/mlx.h src/utils/../../libft/libft.h src/utils/../gnl/get_next_line.h src/utils/../vector_3d/vector_3d.h src/utils/../color/color.h src/utils/../world/world.h src/utils/../world/../../libft/libft.h src/utils/../world/../light/light.h src/utils/../world/../light/../color/color.h src/utils/../world/../light/../vector_3d/vector_3d.h src/utils/../world/../shapes/shape.h src/utils/../world/../shapes/../color/color.h src/utils/../world/../shapes/../vector_3d/vector_3d.h src/utils/../world/../camera/camera.h src/utils/../compute/compute.h src/utils/../display/display.h src/utils/../display/../img.h src/utils/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/put_usage'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/color/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bonus: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/compute/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/double_min.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/shapes/shape_normal_vec.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+ 
+obj/color/color_utils.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world_add.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/display/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/camera/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/img.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world.o: src/world/world.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/vector_3d/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+ 
+
+src/color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/is_num.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/free_all.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/shapes/with_shape.o: src/shapes/with_shape.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/shapes/with_shape.c src/shapes/../main.h minilibx-linux/mlx.h src/shapes/../../libft/libft.h src/shapes/../gnl/get_next_line.h src/shapes/../vector_3d/vector_3d.h src/shapes/../color/color.h src/shapes/../world/world.h src/shapes/../world/../../libft/libft.h src/shapes/../world/../light/light.h src/shapes/../world/../light/../color/color.h src/shapes/../world/../light/../vector_3d/vector_3d.h src/shapes/../world/../shapes/shape.h src/shapes/../world/../camera/camera.h src/shapes/../compute/compute.h src/shapes/../display/display.h src/shapes/../display/../img.h src/shapes/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `shapes/with_shape'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 99):
+	rm -f $(NAME)
+	# make clean -C $(MLX_DIR)
+	# make fclean -C $(LIBFT_DIR)
+	
+
+# Not a target:
+src/vector_3d/vec3d_camera.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:01:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/compute/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/display/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/vector_3d/vec3d_utils1.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 14:25:35
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/color/../compute/compute.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/vector_3d/vec3d_sp_center.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world_parse_1.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_parse_utills.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 21:12:54
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/free_all.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/is_float.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:05:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/img.o: src/img.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/img.c src/main.h minilibx-linux/mlx.h src/../libft/libft.h src/gnl/get_next_line.h src/vector_3d/vector_3d.h src/color/color.h src/world/world.h src/world/../../libft/libft.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/compute/compute.h src/display/display.h src/display/../img.h src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `img'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/compute/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/is_float.o: src/utils/is_float.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/is_float.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/is_float'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 95):
+	rm -f $(OBJ) $(DEP)
+	# make clean -C $(LIBFT_DIR)
+	
+
+src/display/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/is_num.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:05:16
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+minilibx-linux/mlx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-17 21:20:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/world/world_parse_3.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 00:24:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/camera/camera.o: src/camera/camera.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/camera/camera.c src/camera/../main.h minilibx-linux/mlx.h src/camera/../../libft/libft.h src/camera/../gnl/get_next_line.h src/camera/../vector_3d/vector_3d.h src/camera/../color/color.h src/camera/../world/world.h src/camera/../world/../../libft/libft.h src/camera/../world/../light/light.h src/camera/../world/../light/../color/color.h src/camera/../world/../light/../vector_3d/vector_3d.h src/camera/../world/../shapes/shape.h src/camera/../world/../shapes/../color/color.h src/camera/../world/../shapes/../vector_3d/vector_3d.h src/camera/../world/../camera/camera.h src/camera/../compute/compute.h src/camera/../display/display.h src/camera/../display/../img.h src/camera/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `camera/camera'
+#  Last modified 2022-12-07 19:12:39
+ 
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+src/gnl/get_next_line_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:48:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/camera/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/vector_3d/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/gnl/get_next_line_utils.o: src/gnl/get_next_line_utils.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/gnl/get_next_line_utils.c src/gnl/get_next_line.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `gnl/get_next_line_utils'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/compute/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/put_usage.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:05:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world_parse_utills.o: src/world/world_parse_utills.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_parse_utills.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_parse_utills'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/camera/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/utils/ft_exit.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+obj/color/color_utils.o: src/color/color_utils.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/color/color_utils.c src/color/../main.h minilibx-linux/mlx.h src/color/../../libft/libft.h src/color/../gnl/get_next_line.h src/color/../vector_3d/vector_3d.h src/color/../color/color.h src/color/../world/world.h src/color/../world/../../libft/libft.h src/color/../world/../light/light.h src/color/../world/../light/../color/color.h src/color/../world/../light/../vector_3d/vector_3d.h src/color/../world/../shapes/shape.h src/color/../world/../shapes/../color/color.h src/color/../world/../shapes/../vector_3d/vector_3d.h src/color/../world/../camera/camera.h src/color/../compute/compute.h src/color/../display/display.h src/color/../display/../img.h src/color/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `color/color_utils'
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+obj/world/world_parse_2.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/compute/compute2.o: src/compute/compute2.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/compute/compute2.c src/compute/../main.h minilibx-linux/mlx.h src/compute/../../libft/libft.h src/compute/../gnl/get_next_line.h src/compute/../vector_3d/vector_3d.h src/compute/../color/color.h src/compute/../world/world.h src/compute/../world/../../libft/libft.h src/compute/../world/../light/light.h src/compute/../world/../light/../color/color.h src/compute/../world/../light/../vector_3d/vector_3d.h src/compute/../world/../shapes/shape.h src/compute/../world/../shapes/../color/color.h src/compute/../world/../shapes/../vector_3d/vector_3d.h src/compute/../world/../camera/camera.h src/compute/../compute/compute.h src/compute/../display/display.h src/compute/../display/../img.h src/compute/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `compute/compute2'
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/compute.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:16:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/gnl/get_next_line.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world_add.o: src/world/world_add.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_add.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_add'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+src/world/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/shapes/with_shape.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 00:01:28
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/vector_3d/vec3d_camera_to_screen.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../world/../shapes/../color/color.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/shapes/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+# Not a target:
+obj/color/color.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:39
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/shapes/shape.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../display/../img.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/camera/../world/../light/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/utils/ft_walloc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 03:04:30
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/world/world_parse_1.o: src/world/world_parse_1.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/world/world_parse_1.c src/world/../main.h minilibx-linux/mlx.h src/world/../../libft/libft.h src/world/../gnl/get_next_line.h src/world/../vector_3d/vector_3d.h src/world/../color/color.h src/world/../world/world.h src/world/../light/light.h src/world/../light/../color/color.h src/world/../light/../vector_3d/vector_3d.h src/world/../shapes/shape.h src/world/../shapes/../color/color.h src/world/../shapes/../vector_3d/vector_3d.h src/world/../camera/camera.h src/world/../compute/compute.h src/world/../display/display.h src/world/../display/../img.h src/world/../utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `world/world_parse_1'
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+obj/utils/ft_walloc.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/compute/compute2.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 00:03:25
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/world/world_parse_4.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/event.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 21:10:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+ 
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../camera/camera.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:33:34
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/utils/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-06 00:16:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../gnl/get_next_line.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 14:49:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/utils/free_all.o: src/utils/free_all.c obj/.keep obj/camera/.keep obj/color/.keep obj/compute/.keep obj/display/.keep obj/gnl/.keep obj/shapes/.keep obj/utils/.keep obj/vector_3d/.keep obj/world/.keep src/utils/free_all.c src/utils/utils.h minilibx-linux/../libft/libft.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `utils/free_all'
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 86):
+	$(CC) $(CFLAGS) $(DEPSFLAGS) $(BONUSFLAGS) -I$(MLX_DIR) -I$(LIBFT_DIR) -c -o $@ $<
+	
+
+# Not a target:
+obj/utils/double_min.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/shapes/../utils/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:29:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/shapes/shape_normal_vec.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/world.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:03:27
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/display/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/../shapes/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/world/../light/light.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 16:23:10
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/vector_3d/vec3d_camera.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:41
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+obj/color/.keep:
+#  Implicit rule search has not been done.
+#  Last modified 2022-12-07 19:11:42
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 89):
+	mkdir -p $(@D)
+	touch $@
+	
+
+src/utils/../vector_3d/vector_3d.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:35:33
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../display/display.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:07:11
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+minilibx-linux/../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+obj/main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2022-12-07 19:12:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+ 
+# Not a target:
+src/camera/camera.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:34:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/vector_3d/../world/../light/../color/color.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-11-26 20:06:38
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/compute/../world/../shapes/shape.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-04 23:59:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 02:57:59
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/color/../world/../../libft/libft.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-12-05 15:31:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=276/1024=27%, Rehash=0, Collisions=247/2040=12%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 35
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3295 / max = 3295 / min = 3295 / avg = 3295
+
+# Finished Make data base on Thu Feb  2 21:22:31 2023
+
+ 

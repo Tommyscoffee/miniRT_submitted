@@ -1,0 +1,67 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/akihito/42tokyo/42cursus/level4/miniRT_submit'
+make -C minilibx-linux
+make bonus -C libft
+mkdir -p obj
+touch obj/.keep
+mkdir -p obj/camera
+touch obj/camera/.keep
+mkdir -p obj/color
+touch obj/color/.keep
+mkdir -p obj/compute
+touch obj/compute/.keep
+mkdir -p obj/display
+touch obj/display/.keep
+mkdir -p obj/gnl
+touch obj/gnl/.keep
+mkdir -p obj/shapes
+touch obj/shapes/.keep
+mkdir -p obj/utils
+touch obj/utils/.keep
+mkdir -p obj/vector_3d
+touch obj/vector_3d/.keep
+mkdir -p obj/world
+touch obj/world/.keep
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/camera/camera.o src/camera/camera.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/color/color.o src/color/color.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/color/color_utils.o src/color/color_utils.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/compute/compute.o src/compute/compute.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/compute/compute2.o src/compute/compute2.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/display/display.o src/display/display.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/gnl/get_next_line_utils.o src/gnl/get_next_line_utils.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/gnl/get_next_line.o src/gnl/get_next_line.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/event.o src/event.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/img.o src/img.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/main.o src/main.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/shapes/shape.o src/shapes/shape.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/shapes/shape_normal_vec.o src/shapes/shape_normal_vec.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/shapes/with_shape.o src/shapes/with_shape.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/double_max.o src/utils/double_max.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/double_min.o src/utils/double_min.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/free_all.o src/utils/free_all.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/ft_exit.o src/utils/ft_exit.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/ft_walloc.o src/utils/ft_walloc.c
+ 
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/put_usage.o src/utils/put_usage.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/is_num.o src/utils/is_num.c
+ 
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/utils/is_float.o src/utils/is_float.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/vector_3d/vec3d_camera.o src/vector_3d/vec3d_camera.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/vector_3d/vec3d_camera_to_screen.o src/vector_3d/vec3d_camera_to_screen.c
+ 
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/vector_3d/vec3d_sp_center.o src/vector_3d/vec3d_sp_center.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/vector_3d/vec3d_utils.o src/vector_3d/vec3d_utils.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/vector_3d/vec3d_utils1.o src/vector_3d/vec3d_utils1.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world.o src/world/world.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_add.o src/world/world_add.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_parse_1.o src/world/world_parse_1.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_parse_2.o src/world/world_parse_2.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_parse_3.o src/world/world_parse_3.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_parse_4.o src/world/world_parse_4.c
+cc -Wall -Wextra -Werror -fsanitize=address -MMD -MP  -Iminilibx-linux -Ilibft -c -o obj/world/world_parse_utills.o src/world/world_parse_utills.c
+cc -Wall -Wextra -Werror -fsanitize=address -fsanitize=address  -o miniRT obj/camera/camera.o obj/color/color.o obj/color/color_utils.o obj/compute/compute.o obj/compute/compute2.o obj/display/display.o obj/gnl/get_next_line_utils.o obj/gnl/get_next_line.o obj/event.o obj/img.o obj/main.o obj/shapes/shape.o obj/shapes/shape_normal_vec.o obj/shapes/with_shape.o obj/utils/double_max.o obj/utils/double_min.o obj/utils/free_all.o obj/utils/ft_exit.o obj/utils/ft_walloc.o obj/utils/put_usage.o obj/utils/is_num.o obj/utils/is_float.o obj/vector_3d/vec3d_camera.o obj/vector_3d/vec3d_camera_to_screen.o obj/vector_3d/vec3d_sp_center.o obj/vector_3d/vec3d_utils.o obj/vector_3d/vec3d_utils1.o obj/world/world.o obj/world/world_add.o obj/world/world_parse_1.o obj/world/world_parse_2.o obj/world/world_parse_3.o obj/world/world_parse_4.o obj/world/world_parse_utills.o \
+		-Llibft -lft \
+		-Lminilibx-linux -lmlx_Darwin \
+		-L/usr/X11R6/lib -lX11 -lXext -framework OpenGL -framework AppKit
+make: Leaving directory `/Users/akihito/42tokyo/42cursus/level4/miniRT_submit'
+ 
